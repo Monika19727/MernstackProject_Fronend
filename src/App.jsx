@@ -1,12 +1,14 @@
-import React from 'react'
+import { BrowserRouter,Route,Routes } from "react-router-dom";
+import UserLayout from "./Component/Layout/UserLayout";
 
 export default function 
 () {
   return (
-    <div>
-      <h1 class="text-3xl font-bold underline">
-      Hello world! its me 
-    </h1>
-    </div>
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<UserLayout/>}>
+      </Route>
+    </Routes>
+    </BrowserRouter>
   )
 }
