@@ -6,8 +6,8 @@ export default function
   return (
     <BrowserRouter>
     <Routes>
-      <Route path="/" element={<UserLayout/>}>  //routing for userlayout
-      </Route>
+      <Route path="/" element={<UserLayout />}>  
+      </Route>  
     </Routes>
     </BrowserRouter>
   )
