@@ -1,3 +1,4 @@
+import React from "react"; 
 import { BrowserRouter,Route,Routes } from "react-router-dom";
 import UserLayout from "./Component/Layout/UserLayout";
 
@@ -8,6 +9,7 @@ export default function
     <Routes>
       <Route path="/" element={<UserLayout />}>  
       </Route>  
+      
     </Routes>
     </BrowserRouter>
   )
